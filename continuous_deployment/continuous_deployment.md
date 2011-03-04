@@ -49,14 +49,14 @@
 
 # Create a new Jenkins project testing only branch master #
 
-![Jenkins Master](img/1Hudson git master.png)
+![Jenkins Master](img/1Hudsongitmaster.png)
 
 
 !SLIDE center
 
 # Specify "Build other projects" in the post-build actions #
 
-![Jenkins post build](img/2Hudson post build.png)
+![Jenkins post build](img/2Hudsonpostbuild.png)
 
 
 !SLIDE center
@@ -70,7 +70,7 @@
 
 # Create a second Jenkins project to execute the deploy script #
 
-![Jenkins deploy](img/3Hudson deploy.png)
+![Jenkins deploy](img/3Hudsondeploy.png)
 
 !SLIDE center
 
