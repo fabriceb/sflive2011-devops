@@ -26,6 +26,10 @@
 * groups.google.com/group/paris-devops
 * and many more devops meetups around the world
 
+!SLIDE center
+
+# Many thanks to Samuel @smaftoul Maftoul, organiser of the Paris DevOps meetup, who bootstrapped me on DevOps! #
+
 
 !SLIDE center
 
