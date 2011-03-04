@@ -1,0 +1,186 @@
+@font-face
+{
+  font-family: 'calibri';
+  font-style: normal;
+  font-weight: normal;
+  src: local('☺'),
+         url('fonts/calibri/CALIBRI.TTF') format('truetype');
+}
+
+@font-face
+{
+  font-family: 'calibri';
+  font-style: normal;
+  font-weight: bold;
+  src: local('☺'),
+         url('fonts/calibri/CALIBRIB.TTF') format('truetype');
+}
+
+@font-face
+{
+  font-family: 'calibri';
+  font-style: italic;
+  font-weight: normal;
+  src: local('☺'),
+         url('fonts/calibri/CALIBRII.TTF') format('truetype');
+}
+
+@font-face
+{
+  font-family: 'calibri';
+  font-style: italic;
+  font-weight: bold;
+  src: local('☺'),
+         url('fonts/calibri/CALIBRIZ.TTF') format('truetype');
+}
+
+body
+{
+  font-family: normal 20pt calibri, arial, sans-serif;
+  color: #404040;
+}
+
+.content
+{
+	margin-top: 60pt !important;
+}
+
+/* Styles génériques */
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+	color: #404040;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 1em;
+	font-size: 20pt;
+}
+
+h1
+{
+	font-size: 28pt;
+	color: #11649e;
+	padding-left: 2em;
+	background: url('images/th_title.png') no-repeat 0 0;
+	padding-bottom: 0.1em;
+}
+
+h1 img
+{
+	position: relative;
+	top: -15pt;
+}
+
+h2
+{
+	color: #7bb951;
+	font-size: 24pt;
+}
+
+ul li
+{
+	text-align: left;
+}
+
+ul li
+{
+	font-size: 20pt;
+	padding: 1em 0 1em 1.5em;
+	background: url('images/th_bullet.gif') no-repeat 0 1.3em;
+}
+
+img
+{
+	/*text-align:center;
+	padding: 20pt;*/
+}
+
+
+/* Style centrés */
+
+.center h1,
+.center h2,
+.center h3,
+.center h4,
+.center h5,
+.center h6
+{
+	text-align: center;
+	background: none;
+	padding-left: 0;
+	padding-bottom: 1em;
+}
+
+
+
+/* Styles subsections */
+
+.subsection
+{
+	background: #ffffff;
+	padding-top: 15em;
+	/*margin-top: 300px*/
+}
+
+.subsection h1,
+.subsection h2,
+.subsection h3
+{
+	background: none;
+	text-align: right;
+}
+
+.subsection h1
+{
+	font-size: 40pt;
+	padding-bottom: .2em;
+}
+
+.subsection h2
+{
+	font-size: 24pt;
+}
+
+.subsection h3
+{
+	font-size: 18pt;
+}
+
+
+
+/* Style du code */
+
+pre.sh_sourceCode .sh_keyword
+{
+	color: #11649e;
+}
+
+
+/* Footer */
+
+#footer
+{
+	text-align: right;
+	background: url('images/th_footer.png') no-repeat 0 0;
+}
+
+#slideInfo
+{
+	font-weight: bold;
+	color: #11649e;
+	padding: 0 0 2em 2em;
+	background: url('images/th_footer_logo.gif') no-repeat 0 0;
+}
+
+#slideInfo:before
+{
+	content: '@theodo | 03-04-2011 | ';
+}
+

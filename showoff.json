@@ -1,0 +1,9 @@
+[ 
+ {"section":"title"},
+ {"section":"about_me"},
+ {"section":"what_is_devops"},
+ {"section":"configuration_management"},
+ {"section":"scripted_deployment"},
+ {"section":"continuous_deployment"},
+ {"section":"future"}
+]

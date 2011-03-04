@@ -1,0 +1,16 @@
+DEVOPS
+
+0. Introduction
+
+Silos, Dev + Ops pas bien
+
+ops créént les outils pour que devs déploient.
+
+
+1. Configuration management, exemple de Puppet
+
+2. Déploiement, exemple de Fabric
+
+3. Intégration continu + déploiement => Déploiement continu
+
+4. Monitoring de performance pendant le dev
